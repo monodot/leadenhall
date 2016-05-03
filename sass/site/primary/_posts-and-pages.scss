@@ -20,9 +20,19 @@
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+
+	h2 {
+		text-align: center;
+		font-size: 2em;
+		color: $color__text-article-subheading;
+	}
 }
 
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.entry-meta {
+	text-align: center;
 }

@@ -1,0 +1,29 @@
+.content-area {
+	max-width: 2100px;
+	margin: 3.5em auto 0;
+	padding: 0 5%;
+}
+
+.site-main {
+	margin-left: 15%;
+	width: 70%;
+}
+
+.site-footer {
+	clear: both;
+	width: $size__site-main;
+	padding: 3em 2em 4em;
+	color: $color__text-footer;
+	background: $color__background-footer;
+}
+
+.site-info {
+	/*@include font-size(0.8);*/
+
+	a {
+		text-decoration: none;
+		font-weight: bold;
+		border-bottom: 0.1em solid #333;
+		color: $color__text-footer;
+	}
+}

@@ -1,8 +1,54 @@
+.widget-area {
+	clear: both;
+	width: $size__site-main;
+	padding: 3em 2em 4em;
+	border-top: 2px solid $color__border-divider;
+	background: $color__background-footer;
+}
+
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0 0 2em;
+
+	h2 {
+		@include font-size(1);
+		margin: 0 0 0.5em 0;
+	}
 
 	/* Make sure select elements fit in widgets. */
 	select {
 		max-width: 100%;
 	}
+
+	ul {
+		/*@include font-size(0.8);*/
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+
+		li {
+			line-height: 2em;
+		}
+
+	}
+
+	a {
+		text-decoration: none;
+		color: $color__text-footer;
+	}
+/*
+	display: inline-block;
+	float: left;
+	width: 33.2%;
+	padding: 6% 4%;
+	vertical-align: top;
+	border-right: dotted 1px #f00;
+	border-bottom: dotted 1px #f00;
+*/
+	float: left;
+	width: 33.333333333%;
+	padding-right: 2em;
+	text-align: left
+
+
 }
